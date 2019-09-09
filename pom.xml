@@ -8,10 +8,10 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.conecta</groupId>
-    <artifactId>spring-ajax</artifactId>
+    <groupId>joaoleite</groupId>
+    <artifactId>spring-adminLTE2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-ajax</name>
+    <name>spring-adminLTE2</name>
     <description>Sistema de demostração da integração de Spring MVC, Thymeleaf com AdminLTE 2</description>
 
     <properties>
@@ -52,7 +52,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
@@ -61,7 +61,7 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
